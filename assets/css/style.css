@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #383B45;
+  }
+  .login-container {
+    background-color: #242833;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    width: 80%;
+    max-width: 400px;
+  }
+  .login-container h2 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .login-container input[type="submit"] {
+    background-color: #7888C0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .login-container input[type="submit"]:hover {
+    background-color: #7888C0;
+  }
+
+  .acessar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+        width: 100%;
+        text-align: center;
+    }
+
+    i{
+        margin: 10px;
+    }
+
+    .fa-facebook{
+        background-color: white;
+        border-radius: 20px;
+    }
+}
